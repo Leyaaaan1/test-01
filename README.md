@@ -1,5 +1,12 @@
 # changedetection.io: data not saved permanently
 
+## Test it in one click
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Leyaaaan1/test-01)
+
+Needs a free GitHub account. It builds in a few minutes and opens the
+app. Then follow "Test it yourself" below, using the terminal in the
+Codespace.
+
 ## Problem
 Fields and watches added in changedetection.io disappear later.
 
@@ -35,14 +42,6 @@ Start it with:
 3. The watch was still there
 4. The data files are visible in `./datastore` on the host
 
-## Live test
-Link: https://suspended-illinois-notebooks-motor.trycloudflare.com
-Password: sent on WhatsApp
-
-The link runs from my computer, so it is only available while my
-computer is online. If it is down, message me and I will restart it
-(the link changes after a restart). I can also restart the container
-live so you can see the data survive.
 
 ## Test it yourself
     git clone https://github.com/YOURNAME/changedetection-fix
