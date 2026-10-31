@@ -1,0 +1,12 @@
+{
+  "name": "changedetection.io persistence test",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+  },
+  "postStartCommand": "docker compose up -d",
+  "forwardPorts": [5000],
+  "portsAttributes": {
+    "5000": { "label": "changedetection.io", "onAutoForward": "openBrowser" }
+  }
+}
